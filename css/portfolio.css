@@ -8,6 +8,9 @@ h1 {
   color: #818983;
   font-family: 'Poiret One';
 }
+p {
+  font-family: 'PT Sans';
+}
 
 /*HORIZONTAL NAV*/
 /* top-bar, nav.top-bar ul {
