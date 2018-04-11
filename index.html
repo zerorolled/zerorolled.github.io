@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Poiret+One" rel="stylesheet">
     <title>Madison's 3870 Homepage</title>
 
     <!-- Need for ZURB - Edit Filepaths -->
@@ -13,28 +14,33 @@
     <!-- Need for ZURB - Edit Filepaths -->
   </head>
   <body>
-    <main>
       <header>
-        <h1>Homepage 3870 Spring 2018</h1>
+      <main class="grid-container">
+        <h1>Salvato Studios</h1>
          <!--home/gallery/about|contact/redesign/animation/lss -->
+         <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+           <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+           <div class="title-bar-title">Menu</div>
+         </div>
+
          <nav class="top-bar" id="main-nav">
            <div class="top-bar-left">
              <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
-               <li class="menu-text">Salvato Studios</li>
-               <li>
-                 <a href="#">Home</a>
-                 <ul class="menu vertical">
-                   <li><a href="#">One</a></li>
-                   <li><a href="#">Two</a></li>
-                   <li><a href="#">Three</a></li>
-                 </ul>
-               </li>
-               <li><a href="#">About</a></li>
+               <li class="menu-text"></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="about.html">About</a></li>
                <li><a href="#">Gallery</a></li>
+               <li><a href="#">Projects</a>
+                 <ul class="menu vertical">
+                   <li><a href="#">Redesign</a></li>
+                   <li><a href="#">Animation</a></li>
+                   <li><a href="#">LSS</a></li>
+                 </ul></li>
              </ul>
            </div>
-        </nav>
+         </nav>
       </header>
+
       <section>
         <!--ORBIT SLIDER-->
         <section class="grid-x">
@@ -81,6 +87,13 @@
         </section>
         <!--ORBIT SLIDER-->
       </section>
+<!-- TIME AND DATE
+      <section class="grid-x grid-margin-x grid-padding-x">
+        <div class="large-6 cell">
+          <h1 id="today"></h1>
+          <h3 id="time"></h3>
+        </div>
+      </section> -->
     </main>
 
   <!-- Need for ZURB - Edit Filepaths -->
