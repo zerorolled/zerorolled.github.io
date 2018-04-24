@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="change stylesheet re time or day">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
     <title>Madison's 3870 Homepage</title>
 
     <!-- Need for ZURB - Edit Filepaths -->
@@ -12,6 +15,7 @@
     <!-- Need for ZURB - Edit Filepaths -->
   </head>
   <body>
+
     <main class="grid-container">
       <header class="grid-x grid-margin-x grid-padding-x">
         <h1 class="large-12 cell">Homepage 3870 Spring 2018</h1>
@@ -24,6 +28,14 @@
           </ul>
         </nav>
       </header>
+
+      <section class="grid-x">
+        <div class="large-6 cell large-offset-3">
+          <h2 id="time">x</h2>
+          <h3 id="demo">x</h3>
+        </div>
+      </section>
+
       <section class="grid-x grid-margin-x grid-padding-x">
         <figure class="large-5 cell">
           <img src="https://placeimg.com/800/400/animals" alt="placeholder image">
@@ -50,6 +62,13 @@
           <figcaption>Listicle voluptate letterpress irure man braid lomo offal gochujang flexitarian copper mug tumblr keffiyeh. Roof party four loko selvage, slow-carb gentrify leggings tbh id quinoa bitters hexagon. Man braid disrupt leggings pop-up, hot chicken excepteur aliquip labore hashtag gochujang selfies mixtape cornhole mlkshk paleo. Typewriter irony brunch air plant ex cloud bread.</figcaption>
         </figure>
       </section>
+
+      <!--INTERCHANGE-->
+      <section class="grid-x">
+        <div class="large-12 cell">
+          <img data-interchange="[img/smallspace.jpeg, small], [img/mediumspace.jpg, medium], [img/bigspace.jpg, large]">
+        </div>
+      </section>
     </main>
   <!-- Need for ZURB - Edit Filepaths -->
     <script src="zurb/js/vendor/jquery.js"></script>
@@ -57,5 +76,6 @@
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
   <!-- Need for ZURB - Edit Filepaths -->
+    <script src="js/change.js"></script>
   </body>
 </html>
