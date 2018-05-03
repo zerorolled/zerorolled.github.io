@@ -7,7 +7,7 @@ header {
   background-color: rgb(215, 216, 205, 0.75);
   color: #818983;
 }
-h1 {
+h1, h2, h3 {
   font-family: 'Poiret One';
 }
 p, nav {
