@@ -1,0 +1,335 @@
+header {
+  text-align: center;
+  color: black;
+}
+body {
+  background-color:rgba(210, 246, 247, 0.5);
+}
+
+h1 {
+  font-family: 'Hi Melody', cursive;
+}
+
+p, ul, li {
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a, h1 a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*WATCHING TEXT ANIMATIONS*/
+
+/*NAPALM*/
+ .napalm1{
+  position: relative;
+  color: rgb(140, 0, 0);
+  animation-name: napalm1;
+  animation-duration: 3.25s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease-in-out;
+}
+
+
+@keyframes napalm1 {
+    0%   {color:rgb(241, 0, 0); left:300px; top:0px;}
+    50%  {color:rgb(242, 103, 0); left:1100px; top:10px;}
+    100% {color:rgb(240, 96, 0); left:300px; top:0px;}
+}
+
+.napalm2{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: napalm2;
+ animation-duration: 4.5s;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease-in-out;
+}
+
+@keyframes napalm2 {
+   0%   {color:rgb(241, 0, 0); left:600px; top:-50px;}
+   50%  {color:rgb(242, 103, 0); left:1200px; top:-45px;}
+   100% {color:rgb(240, 96, 0); left:600px; top:-50px;}
+}
+
+.napalm3{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: napalm3;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease-in-out;
+}
+
+@keyframes napalm3 {
+   0%   {color:rgb(241, 0, 0); left:1500px; top:-120px;}
+   50%  {color:rgb(242, 103, 0); left:900px; top:-60px;}
+   100% {color:rgb(240, 96, 0); left:1500px; top:-120px;}
+}
+
+.napalm4{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: napalm4;
+ animation-duration: 6s;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease-in-out;
+}
+
+@keyframes napalm4 {
+   0%   {color:rgb(241, 0, 0); left:1800px; top:-100px;}
+   50%  {color:rgb(242, 103, 0); left:625px; top:-85px;}
+   100% {color:rgb(240, 96, 0); left: 1800px; top:-100px;}
+}
+
+.napalm5{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: napalm5;
+ animation-duration: 5.5s;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease-in-out;
+}
+
+@keyframes napalm5 {
+   0%   {color:rgb(241, 0, 0); left:1900px; top:-130px;}
+   50%  {color:rgb(242, 103, 0); left:700px; top:-10px;}
+   100% {color:rgb(240, 96, 0); left: 1900px; top:-130px;}
+}
+
+.napalm6{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: napalm6;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+ transition-timing-function: ease-in-out;
+}
+
+@keyframes napalm6 {
+   0%   {color:rgb(241, 0, 0); left:1800px; top:-120px;}
+   50%  {color:rgb(242, 103, 0); left:1000px; top:-20px;}
+   100% {color:rgb(240, 96, 0); left: 1800px; top:-120px;}
+}
+
+/*CITY*/
+.city1{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city1;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city1 {
+   0%   {color:rgb(124, 124, 124); left:600px;}
+   25%   {color:rgb(165, 39, 39); left:600px;}
+   50%  {color:rgb(38, 37, 37); left:600px;}
+   75%   {color:rgb(142, 59, 0); left:600px;}
+   100% {color:rgb(99, 52, 52); left:600px;}
+}
+
+.city2{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city2;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city2 {
+   0%   {color:rgb(124, 124, 124);left:800px; top:-40px;}
+   25%   {color:rgb(165, 39, 39);left:800px; top:-40px;}
+   50%  {color:rgb(38, 37, 37);left:800px; top:-40px;}
+   75%   {color:rgb(142, 59, 0);left:800px; top:-40px;}
+   100% {color:rgb(99, 52, 52);left:800px; top:-40px;}
+}
+
+.city3{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city3;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city3 {
+   0%   {color:rgb(124, 124, 124); left:1000px; top:-82px;}
+   25%   {color:rgb(165, 39, 39); left:1000px; top:-82px;}
+   50%  {color:rgb(38, 37, 37); left:1000px; top:-82px;}
+   75%   {color:rgb(142, 59, 0); left:1000px; top:-82px;}
+   100% {color:rgb(99, 52, 52); left:1000px; top:-82px;}
+}
+
+.city4{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city4;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city4 {
+   0%   {color:rgb(124, 124, 124); left:1200px; top:-122px;}
+   25%   {color:rgb(165, 39, 39); left:1200px; top:-122px;}
+   50%  {color:rgb(38, 37, 37); left:1200px; top:-122px;}
+   75%   {color:rgb(142, 59, 0); left:1200px; top:-122px;}
+   100% {color:rgb(99, 52, 52); left:1200px; top:-122px;}
+}
+
+.city5{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city5;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city5 {
+   0%   {color:rgb(124, 124, 124); left:1400px; top:-162px;}
+   25%   {color:rgb(165, 39, 39); left:1400px; top:-162px;}
+   50%  {color:rgb(38, 37, 37); left:1400px; top:-162px;}
+   75%   {color:rgb(142, 59, 0); left:1400px; top:-162px;}
+   100% {color:rgb(99, 52, 52); left:1400px; top:-162px;}
+}
+
+.city6{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city6;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city6 {
+   0%   {color:rgb(124, 124, 124); left:1600px; top:-202px;}
+   25%   {color:rgb(165, 39, 39); left:1600px; top:-202px;}
+   50%  {color:rgb(38, 37, 37); left:1600px; top:-202px;}
+   75%   {color:rgb(142, 59, 0); left:1600px; top:-202px;}
+   100% {color:rgb(99, 52, 52); left:1600px; top:-202px;}
+}
+
+.city7{
+ position: relative;
+ color: rgb(140, 0, 0);
+ animation-name: city7;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes city7 {
+   0%   {color:rgb(124, 124, 124); left:1800px; top:-242px;}
+   25%   {color:rgb(165, 39, 39); left:1800px; top:-242px;}
+   50%  {color:rgb(38, 37, 37); left:1800px; top:-242px;}
+   75%   {color:rgb(142, 59, 0); left:1800px; top:-242px;}
+   100% {color:rgb(99, 52, 52); left:1800px; top:-242px;}
+}
+
+/*NO FAIR ANIMATIONS*/
+.falling {
+  position: relative;
+  animation-name: falling;
+  animation-duration: 10s;
+  transition-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes falling {
+   0%   {left: 1000px; top:-10px;}
+   50%  {left: 1400px;}
+   100% {left: 900px; top:1000px;}
+}
+/*WAVES*/
+.wave {
+  width: 3500px;
+  height: 3525px;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(123, 240, 242, .5);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+
+
+/*ANIMATED SPRITE*/
+.blink {
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/blinkingsprite.png");
+    -webkit-animation: play 1s steps(7) infinite;
+    -moz-animation: play 1s steps(7) infinite;
+    animation: play 1s steps(7) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+.blink2 {
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/blinkingsprite.png");
+    animation-name: blink2;
+    animation-play-state: paused;
+    -webkit-animation: play 1s steps(7) infinite;
+    -moz-animation: play 1s steps(7) infinite;
+    animation: play 1s steps(7) infinite;
+}
+
+@-webkit-keyframes blink2 {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@-moz-keyframes blink2 {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+@keyframes blink1 {
+   from { background-position:    0px; }
+     to { background-position: -2100px; }
+}
+
+div:hover {
+    animation-play-state: paused;
+}
