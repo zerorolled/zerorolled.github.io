@@ -7,16 +7,38 @@ window.onscroll = function(){
 
   console.log(fromTop);
 
-  seed.innerHTML = fromTop + "px";
-
-  seed.style.top = fromTop * 1 + "px";
+  seed.style.top = fromTop * 0.89 + "px";
 
   seed.style.transform = "rotate("+ fromTop +"deg)";
 
-  if(fromTop > 2000){
+  if(fromTop < 7000){
     seed.style.transform = "rotate(0 deg)";
     }else{
-      seed.style.transform = "rotate("+ fromTop +"deg)";
+      seed.style.transform = "none()";
     }
-
 }
+/*
+//fact 1
+var heightfact = document.getElementById("heightfact");
+
+window.onscroll = function(){
+
+  var y = window.pageYOffset;
+
+  console.log(y);
+
+  counter.style.top = 400 + y * .97 + "px";
+
+  counter.innerHTML = y + "px";
+
+  if(y > 1000){
+
+    console.log("Scroll for a Sunflower Fact!");
+
+  }else{
+
+  console.log("");
+ }
+
+};
+*/

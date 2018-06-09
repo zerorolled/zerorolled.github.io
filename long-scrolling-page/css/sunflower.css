@@ -7,12 +7,55 @@ h1 {
   width: 1000px;
 }
 
+#heightfact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: -35px;
+  margin-left: 650px;
+}
+
+#seedfact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: 485px;
+  margin-left: 50px;
+}
+
+#stakefact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: 3000px;
+  margin-left: 50px;
+}
+
+#sproutfact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: 2600px;
+  margin-left: 650px;
+}
+
+#soilfact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: 300px;
+  margin-left: 50px;
+}
 
 #stage {
   height:10000px;
   width:1000px;
   margin:0 auto;
-  border:1px solid red;
   position: relative;
 }
 
@@ -24,7 +67,6 @@ h1 {
   width: 200px;
   margin-top: -280px;
   margin-left: 550px;
-  border: 1px solid red;
 }
 
 #sunflower {
@@ -37,7 +79,7 @@ h1 {
   background-image: url("../img/stem.png");
   background-repeat: repeat-y;
   background-position: center;
-  margin-top: -22px;
+  margin-top: -6822px;
 }
 
 #tgrass {
